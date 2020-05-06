@@ -14,7 +14,7 @@ itemList.push(createSampleItem());
 
 // default item when pages loads for the first time
 function createSampleItem(){
-    let item = todoItem("Sample item", 0)
+    let item = todoItem("Sample Item", 0)
     item.details = "Sample Description";
     return item;
 }
